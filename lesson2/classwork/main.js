@@ -5,7 +5,7 @@ const num1 = 10;
 const num2 = 15;
 if (num1 > num2){
     console.log(num1+' '+'Максимальне число');
-} else if (num1 == num2){
+} else if (num1 === num2){
     console.log('Рівні числа');
 } else if (num2 > num1){
     console.log(num2 + ' '+'Максимальне число');
@@ -15,13 +15,13 @@ if (num1 > num2){
 // У третьому з 49 по 90.
 // Користувач вводить номер квартири просто в змінні або через prompt('') .
 // Програма повинна зазначити, в якому під'їзді знаходиться дана квартира.
-const numberApartment = 50;
-if (numberApartment <= 20){
+const numberApartment = 25;
+if (numberApartment >=0 && numberApartment<= 20){
     console.log('Квартира у першому підїзді');
-} else if (numberApartment <=48){
+} else if (numberApartment >=20 && numberApartment <=48){
     console.log('Квартира у другому підїзді')
 }
-else if (numberApartment <= 90){
+else if (numberApartment >=48 && numberApartment <= 90){
     console.log('Квартира у третьому підїзді');
 }
 
