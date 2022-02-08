@@ -46,11 +46,13 @@ for (let n = 0; n < arrTen.length; n++){
 
 // 7. замінити кожне число кратне 3 на слово "okten"
 for (let w = 0; w < arrTen.length; w++) {
-    const arrTenElement = arrTen[w];
+    let arrTenElement = arrTen[w];
     if (arrTenElement%3===0){
-        console.log(arrTen[w]+' '+'okten');
+        arrTenElement = 'okten';
     }
+    console.log(arrTenElement);
 }
+
 
 // 8. вивести масив в зворотньому порядку.
 for (let r = arrTen.length - 1; r >= 0; r--) {

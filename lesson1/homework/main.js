@@ -93,7 +93,7 @@ console.log(num56ff);
 let num56fff =  5 ==! 6;
 console.log(num56fff);
 
-let num10 = 10 == 10;
+let num10 = 10 === 10;
 console.log(num10);
 let num10t = 10 === 10;
 console.log(num10t);
