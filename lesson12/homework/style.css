@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.wrap{
+    width: auto;
+    justify-content: center;
+}
+
+.post{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.post h3{
+    margin: 0;
+}
+.post h4{
+    height: 50px;
+}
+
+.comment{
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comment h3{
+    margin: 0;
+}
+.comment h4{
+    height: 50px;
+}
