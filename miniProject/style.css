@@ -1,0 +1,56 @@
+.users{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user{
+    background: silver;
+    width: auto;
+    height: 100px;
+    margin: 10px;
+    margin-right: calc(25% - 100px);
+    margin-left: calc(25% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.user-details{
+    background: silver;
+}
+
+.postsContainer{
+    background: hotpink;
+}
+
+.post{
+    background: silver;
+    margin: 3px;
+    width: 100px;
+    margin-right: calc(10% - 50px);
+    margin-left: calc(10% - 50px);
+}
+
+.postDetailsButton{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comments{
+    background: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comments > li {
+    width: 100px;
+    background: crimson;
+    margin: 10px;
+}
